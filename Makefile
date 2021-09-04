@@ -2,35 +2,17 @@
 default: help
 
 # build all theme
-dev:
-	npm start
+dev-h5:
+	npm run dev:h5
 
-remove:
-	npm run remove
+dev-wx:
+	npm run dev:mp-weixin
+	
+build-h5:
+	npm run build:h5
 
-analyz:
-	npm run analyz
-
-build:
-	npm run build
-
-autofix:
-	npm run autofix
+build-wx:
+	npm run build:mp-weixin
 
 dll:
 	npm run build:dll
-
-pro:
-	npm run build
-
-lint:
-	npm run lint
-
-e2e:
-	npm run test:e2e
-
-unit:
-	npm run test:unit
-
-pre:
-	npm run precommit

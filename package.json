@@ -61,6 +61,7 @@
     "core-js": "^3.6.5",
     "flyio": "^0.6.2",
     "regenerator-runtime": "^0.12.1",
+    "uview-ui": "^1.8.4",
     "vue": "^2.6.11",
     "vue-class-component": "^6.3.2",
     "vue-property-decorator": "^8.0.0",
@@ -87,7 +88,9 @@
     "jest": "^25.4.0",
     "mini-types": "*",
     "miniprogram-api-typings": "*",
+    "node-sass": "^4.14.1",
     "postcss-comment": "^2.0.0",
+    "sass-loader": "^10.1.1",
     "typescript": "^3.0.0",
     "vue-template-compiler": "^2.6.11"
   },
