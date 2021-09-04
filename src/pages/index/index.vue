@@ -1,9 +1,9 @@
 <template>
   <view class="content">
-    <image class="logo" src="../../static/logo.png"></image>
-    <view>
-      <text class="title">{{ title }}</text>
-    </view>
+    <u-cell-group class="cell-model">
+      <u-cell-item title="第一题：两数之和" @click="twoSum"></u-cell-item>
+      <u-cell-item title="第一题：两数相加"></u-cell-item>
+    </u-cell-group>
   </view>
 </template>
 
@@ -16,31 +16,22 @@ export default Vue.extend({
     };
   },
   onLoad() {},
-  methods: {},
+  methods: {
+    twoSum() {
+      console.info("2222222");
+      uni.navigateTo({ url: `/pages/packageA/webview/webview` });
+    },
+  },
 });
 </script>
 
-<style>
+<style lang="scss" scoped>
 .content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
 }
 
-.logo {
-  height: 200rpx;
-  width: 200rpx;
-  margin: 200rpx auto 50rpx auto;
-}
-
-.text-area {
-  display: flex;
-  justify-content: center;
-}
-
-.title {
-  font-size: 36rpx;
-  color: #8f8f94;
+.cell-model {
+  width: 100%;
 }
 </style>
