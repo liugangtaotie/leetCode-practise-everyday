@@ -8,6 +8,12 @@
       "style": {
         "navigationBarTitleText": "uni-app"
       }
+    },
+    {
+      "path": "pages/person/index",
+      "style": {
+        "navigationBarTitleText": "uni-app"
+      }
     }
   ],
   "tabBar": {
@@ -22,7 +28,7 @@
         "selectedIconPath": "static/images/homeSelected.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/person/index",
         "text": "我的",
         "iconPath": "static/images/wode.png",
         "selectedIconPath": "static/images/wodeSelected.png"

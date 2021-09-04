@@ -12,7 +12,7 @@ import Vue from "vue";
 export default Vue.extend({
   data() {
     return {
-      title: "Hello home",
+      title: "Hello person",
     };
   },
   onLoad() {},
