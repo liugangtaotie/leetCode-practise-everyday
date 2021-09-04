@@ -19,4 +19,10 @@ module.exports = [
     isSubPackage: true,
     subPackageRoot: "pages/packageA",
   },
+  {
+    path: "twoSum/twoSum",
+    style: {},
+    isSubPackage: true,
+    subPackageRoot: "pages/packageA",
+  },
 ];

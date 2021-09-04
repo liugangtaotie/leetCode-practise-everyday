@@ -2,7 +2,7 @@
   <view class="content">
     <u-cell-group class="cell-model">
       <u-cell-item title="第一题：两数之和" @click="twoSum"></u-cell-item>
-      <u-cell-item title="第一题：两数相加"></u-cell-item>
+      <u-cell-item title="第二题：两数相加"></u-cell-item>
     </u-cell-group>
   </view>
 </template>
@@ -19,7 +19,7 @@ export default Vue.extend({
   methods: {
     twoSum() {
       console.info("2222222");
-      uni.navigateTo({ url: `/pages/packageA/webview/webview` });
+      uni.navigateTo({ url: `/pages/packageA/twoSum/twoSum` });
     },
   },
 });

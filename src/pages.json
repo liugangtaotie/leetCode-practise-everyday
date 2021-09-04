@@ -48,6 +48,10 @@
 				{
 					"path": "webview/webview",
 					"style": {}
+				},
+				{
+					"path": "twoSum/twoSum",
+					"style": {}
 				}
 			]
 		}
